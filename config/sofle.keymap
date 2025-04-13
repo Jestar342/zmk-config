@@ -53,11 +53,11 @@
         lower_layer {
             display-name = "Symbols";
             bindings = <
-&trans    &kp LS(3)  &kp LC(LS(PSCRN)) &kp LS(PSCRN) &kp LC(PSCRN) &kp PAUSE_BREAK                 &kp INS    &kp KP_NUM &kp EQUAL  &kp KP_SLASH &kp KP_MULTIPLY &kp PSCRN
-&trans    &kp LS(N1) &kp LS(N2)        &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(NUBS)                    &kp KP_NUM &kp KP_N7  &kp KP_N8  &kp KP_N9    &kp KP_MINUS    &kp SLCK
-&trans    &kp NUHS   &kp LS(N4)        &kp LS(N9)    &kp LS(N0)    &kp GRAVE                       &kp CARET  &kp KP_N4  &kp KP_N5  &kp KP_N6    &kp KP_PLUS     &kp KP_MINUS
-&trans    &kp LS(N5) &kp LS(N6)        &kp LBKT      &kp RBKT      &kp LS(NUHS)    &trans &trans   &kp AMPS   &kp KP_N1  &kp KP_N2  &kp KP_N3    &kp LS(MINUS)   &trans
-                     &kp C_PREV        &kp C_NEXT    &kp C_PP      &trans          &trans &trans   &trans     &kp KP_N0  &kp KP_DOT &kp KP_ENTER
+&trans    &kp LS(3)  &kp LC(LS(PSCRN)) &kp LS(PSCRN) &kp LC(PSCRN) &kp PAUSE_BREAK                   &kp INS    &kp KP_NUM &kp EQUAL  &kp KP_SLASH &kp KP_MULTIPLY &kp PSCRN
+&trans    &kp LS(N1) &kp LS(N2)        &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(NUBS)                      &kp KP_NUM &kp KP_N7  &kp KP_N8  &kp KP_N9    &kp KP_MINUS    &kp SLCK
+&trans    &kp NUHS   &kp LS(N4)        &kp LS(N9)    &kp LS(N0)    &kp GRAVE                         &kp CARET  &kp KP_N4  &kp KP_N5  &kp KP_N6    &kp KP_PLUS     &kp KP_MINUS
+&trans    &kp LS(N5) &kp LS(N6)        &kp LBKT      &kp RBKT      &kp LS(NUHS)    &trans   &trans   &kp AMPS   &kp KP_N1  &kp KP_N2  &kp KP_N3    &kp LS(MINUS)   &trans
+                     &kp C_PREV        &kp C_NEXT    &kp C_PP      &trans          &kp HOME &kp END  &trans     &kp KP_N0  &kp KP_DOT &kp KP_ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
