@@ -40,7 +40,7 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&kp GRAVE &kp N1      &kp N2        &kp N3     &kp N4      &kp N5                       &kp N6    &kp N7      &kp N8     &kp N9      &kp N0      &none
+&kp GRAVE &kp N1      &kp N2        &kp N3     &kp N4      &kp N5                       &kp N6    &kp N7      &kp N8     &kp N9      &kp N0      &kp TAB
 &kp DEL   &kp Q       &kp W         &kp F      &kp P       &kp B                        &kp J     &kp L       &kp U      &kp Y       &kp SEMI    &kp EQUAL
 &kp ESC   &lt LOWER A &mt LCTRL R   &mt LALT S &mt LSHFT T &kp G                        &kp M     &mt RSHFT N &mt LALT E &mt RCTRL I &lt LOWER O &kp SQT
 &kp BSLH  &kp Z       &kp X         &kp C      &kp D       &kp V     &kp C_MUTE &none   &kp K     &kp H       &kp COMMA  &kp DOT     &kp FSLH    &kp RSHFT
@@ -53,18 +53,18 @@
         lower_layer {
             display-name = "Symbols";
             bindings = <
-&trans    &kp LS(3)  &kp LC(LS(PSCRN)) &kp LS(PSCRN) &kp LC(PSCRN) &trans                              &trans     &kp KP_NUM &kp EQUAL &kp KP_SLASH &kp KP_MULTIPLY &kp PSCRN
-&trans    &kp LS(N1) &kp LS(N2)        &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(NUBS)                        &kp KP_NUM &kp KP_N7  &kp KP_N8 &kp KP_N9    &kp KP_MINUS    &kp SLCK
-&trans    &kp NUHS   &kp LS(N4)        &kp LS(N9)    &kp LS(N0)    &kp GRAVE                           &kp CARET  &kp KP_N4  &kp KP_N5 &kp KP_N6    &kp KP_PLUS     &kp KP_MINUS
-&trans    &kp LS(N5) &kp LS(N6)        &kp LBKT      &kp RBKT      &kp LS(NUHS)   &trans     &trans    &kp AMPS   &kp KP_N1  &kp KP_N2 &kp KP_N3    &kp LS(MINUS)   &trans
-          &trans     &trans            &trans        &trans        &trans         &trans     &trans    &kp KP_N0  &kp KP_DOT &kp KP_ENTER
+&trans    &kp LS(3)  &kp LC(LS(PSCRN)) &kp LS(PSCRN) &kp LC(PSCRN) &kp PAUSE_BREAK               &kp INS    &kp KP_NUM &kp EQUAL &kp KP_SLASH &kp KP_MULTIPLY &kp PSCRN
+&trans    &kp LS(N1) &kp LS(N2)        &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(NUBS)                  &kp KP_NUM &kp KP_N7  &kp KP_N8 &kp KP_N9    &kp KP_MINUS    &kp SLCK
+&trans    &kp NUHS   &kp LS(N4)        &kp LS(N9)    &kp LS(N0)    &kp GRAVE                     &kp CARET  &kp KP_N4  &kp KP_N5 &kp KP_N6    &kp KP_PLUS     &kp KP_MINUS
+&trans    &kp LS(N5) &kp LS(N6)        &kp LBKT      &kp RBKT      &kp LS(NUHS)    &trans &trans &kp AMPS   &kp KP_N1  &kp KP_N2 &kp KP_N3    &kp LS(MINUS)   &trans
+          &trans     &trans            &trans        &trans        &trans          &trans &trans &kp KP_N0  &kp KP_DOT &kp KP_ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
-            display-name = "Raise";
+            display-name = "Function";
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
 // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
