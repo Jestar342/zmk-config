@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-spacemarine
+    - name: nice-shield-spacemarine
       remote: Jestar342
       revision: main
   self:
