@@ -63,13 +63,6 @@
         functions_layer {
             display-name = "Function";
 
-            // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
-            // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
-            // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
-            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
-            //                |      |       |       |      |      |  |      |      |      |       |      |
-
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans   &trans   &trans   &trans  &trans
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &trans  &kp F1   &kp F2   &kp F3   &trans  &trans
@@ -82,13 +75,6 @@
         };
 
         adjust_layer {
-            // ----------------------------------------------------------------------------------------------------------------------------
-            // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
-            // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
-            // |        | RGB_BRD | RGB_BRI |         |         |         |                  |      |      |       |      |       |       |
-            // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
-            //                    |         |         |         |         |         | |      |      |      |       |      |
-
             display-name = "adjust";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                                  &none     &none           &none         &none           &none            &studio_unlock
